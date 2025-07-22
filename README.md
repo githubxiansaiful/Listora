@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Listora BD – Business Directory of Bangladesh
 
-## Getting Started
+Listora is a modern business listing platform built with **Next.js**, focused on helping users discover, explore, and connect with verified local businesses across **Bangladesh**.
 
-First, run the development server:
+## 🌐 Live Site
+Coming soon at: [https://listora.site](https://listora.site)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🏢 Add & manage business listings
+- 🔍 Search, filter, and explore by city/category
+- 🔐 User authentication (business owners & admin)
+- 📊 Admin dashboard for listing moderation
+- 🗺️ Optional map view for geolocated listings
+- ⚡ Built with performance & SEO in mind
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework:** Next.js (App Router)
+- **Styling:** Tailwind CSS / ShadCN UI
+- **Database:** MongoDB (via Mongoose)
+- **Auth:** NextAuth.js / JWT
+- **Storage:** Cloudinary or UploadThing (for image uploads)
+- **Deployment:** Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🧱 Folder Structure (Planned)
 
-## Deploy on Vercel
+/app
+/dashboard
+/listings
+/admin
+/components
+/lib
+/models
+/utils
+/public
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🧑‍💻 Getting Started
+
+✅ To Do (MVP)
+- Set up MongoDB schema
+- Build listing creation form
+- Role-based access (user/admin)
+- Filters by category & city
+- Admin dashboard moderation tools
+
+📄 License
+MIT License
+
+💬 Contact
+Made with ❤️ by Xian Saiful
+For feedback or collaboration: hello@xiansaiful.com
